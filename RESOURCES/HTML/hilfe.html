@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+<title>Hilfe</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>Hilfe</h1>
+
+<a href="#BenutzerAnlegen">Benutzer anlegen</a><br>
+<a href="#BenutzerRechte">Benutzerrechte ändern</a><br>
+<a href="#BenutzerEntfernen">Benutzer löschen</a><br>
+<a href="#BesucherAnmeldung">Besucher Anmeldung (Bereits gespeicherter Besucher)</a><br>
+<a href="#BesucherAnmeldungNeuerBesucher">Besucher Anmeldung (Neuer Besucher)</a><br>
+<a href="#Chipkartenausgabe">Chipkartenausgabe (Bereits gespeicherter Besucher)</a><br>
+<a href="#ChipkartenausgabeNeuerBesucher">Chipkartenausgabe (Neuer Besucher)</a><br>
+<a href="#DSGVO">Datenschutz-Grundverordnung (DSGVO)</a>
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+<h2>Benutzerverwaltung</h2>
+
+<h3 id="BenutzerAnlegen">Benutzer anlegen</h3>
+<ol>
+<li>Beim ersten Start muss ein Benutzer angelegt werden damit das Programm genutzt werden kann.<br>
+Diesem Benutzer werden automatisch Adminrechte zugewiesen.</li>
+<li>Jeder angemeldete Benutzer, egal ob normaler Benutzer oder Aministrator kann weitere Benutzer anlegen.</li>
+</ol>
+
+<h3 id="BenutzerRechte">Benutzerrechte ändern</h3>
+<ol>
+<li>Die Rechte vorhandender Benutzer können nur durch Benutzer mit Admin-Rechten geändert werden.<br>
+So kann also nur ein Benutzer mit Admin-Rechten anderen Benutzern Admin-Rechte gewähren oder <br>
+diese entziehen.</li>
+<li>Es muss mindestens ein Administrator in der Datenbank stehen.<br>
+Steht nur ein Administrator in der Datenbank, ist es nicht möglich, diesem die Adminrechte zu entziehen,<br>
+bevor nicht einem anderen Benutzer Adminrechte gewährt werden.</li>
+</ol>
+
+<h3 id="BenutzerEntfernen">Benutzer löschen</h3>
+<ol>
+<li>Vorhandene Benutzer können nur durch Benutzer mit Admin-Rechten gelöscht werden.</li>
+</ol>
+
+<br>
+<br>
+<br>
+
+<h2>Besucher Anmeldung</h2>
+
+<h3 id="BesucherAnmeldung">Besucher Anmeldung (Bereits gespeicherter Besucher)</h3>
+<ol>
+<li>Anstatt die Ausweisnummer des besuchers jedes Mal von Hand eingeben zu müssen, können Sie auch den Besucher aus der Liste der Besucher auswählen und anschließend auf den Button "Besucher anmelden" klicken. Drücken Sie nun die Tastenkombination Strg + V, woraufhin die Ausweisnummer des zuvor gewählten Besuchers automatisch eingefügt wird.</li>
+</ol>
+
+<br>
+<br>
+
+<h3 id="BesucherAnmeldungNeuerBesucher">Besucher Anmeldung (Neuer Besucher)</h3>
+<ol>
+<li>Wenn Sie eine Besucher-Anmeldung für einen noch nicht gespeicherten Besucher ausfüllen wollen, klicken Sie auf den Button "Besucher anmelden" und geben Sie die Ausweisnummer des Besuchers ein. Im darauf erscheinenden Formular füllen Sie alle grün markierten Eingabefelder aus um die Besucherdaten zu speichern. Anschließend öffnet sich ein Formular zur Eingabe der Anmeldedaten. </li>
+</ol>
+
+<br>
+<br>
+<br>
+
+<h2>Chipkarten Ausgabe</h2>
+
+<h3 id="Chipkartenausgabe">Chipkarten-Ausgabe (Bereits gespeicherter Besucher)</h3>
+<ol>
+<li>Anstatt die Ausweisnummer des Besuchers jedes Mal von Hand eingeben zu müssen, können Sie auch den Besucher aus der Liste der Besucher auswählen und anschließend auf den Button "Chipkarten Ausgabe" klicken. Drücken Sie nun die Tastenkombination Strg + V, woraufhin die Ausweisnummer des zuvor gewählten Besuchers automatisch eingefügt wird.</li>
+</ol>
+
+<br>
+<br>
+
+<h3 id="ChipkartenausgabeNeuerBesucher">Chipkarten-Ausgabe (Neuer Besucher)</h3>
+<ol>
+<li>Wenn Sie eine Chipkarte an einen noch nicht gespeicherten Besucher ausgeben wollen, klicken Sie auf den Button "Chipkarten Ausgabe" und geben Sie die Ausweisnummer des Besuchers ein. Im darauf erscheinenden Formular füllen Sie alle grün markierten Eingabefelder aus um die Besucherdaten zu speichern. Anschließend öffnet sich ein Formular zur Eingabe der Chipkartendaten. </li>
+</ol>
+
+
+
+
+<br>
+<br>
+<br>
+
+<h2>Datenschutz-Grundverordnung (DSGVO)</h2>
+
+<h3 id="DSGVO">Automatische Löschung personenbezogener Daten</h3>
+Personenbezogene Daten sollen laut DSGVO nach einer gewissen Zeit gelöscht werden.<br>
+Jedesmal wenn das Programm geöffnet oder eine Bedienerummeldung stattfindet, wird folgendes ausgeführt.<br>
+<br>
+<ol>
+<li>Besucheranmeldungen bei denen das Datum im Feld "Anmeldung Bis" älter als der im Feld "Löschzeit in Tagen" angegebene Wert ist, werden automatisch gelöscht.</li>
+<li>Chipkartenausgaben bei denen das Datum im Feld "Objekt betreten" älter als der im Feld "Löschzeit in Tagen" angegebene Wert ist, werden automatisch gelöscht.</li>
+<li>Besucherdaten werden gelöscht, wenn das Registrierungsdatum älter als der im Feld "Löschzeit in Tagen" angegebene Wert ist und wenn dem Besucher weder Besucheranmeldungen noch Chipkartenausgaben zugeordnet sind.</li>
+</ol>
+
+Weitere Informationen gemäß Artikel 13 und 14 DSGVO finden Sie im Menü unter "Hilfe / Datenschutz-Grundverordnung" 
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+__history/
+__recovery/
+Output/
+DCU/
+*.dcu
+*.~*
+*.local
+*.identcache
+*.exe
+*.dll
+_github_push.bat
+_github_push_changes.bat
+*.map
+CertumSignApp.bat
+CommitProjektToGitHub.ini
