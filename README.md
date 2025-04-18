@@ -3,6 +3,7 @@
 
 Open Source Delphi-Projekt zur Besucherverwaltung und das erfassen von Chipkartenaus- und 
 Rückgaben in Bundeswehrobjekten,  mit SQLite und OpenSSL.
+
 Automatische Datenbanksicherung einmal in der Woche.
 
 
