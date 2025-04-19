@@ -50,14 +50,14 @@ Veröffentlicht unter der MIT-Lizenz“ siehe [LICENSE](./LICENSE).
 
 
 
-### ?? Sicherheitsprüfung durch VirusTotal
+### Sicherheitsprüfung durch VirusTotal
 
 Diese Anwendung wurde mit über **70 Antivirenprogrammen** bei [VirusTotal.com](https://www.virustotal.com) geprüft.  
-? **Es wurden keine Bedrohungen erkannt.**
+**Es wurden keine Bedrohungen erkannt.**
 
-?? [?? VirusTotal-Ergebnis anzeigen](https://www.virustotal.com/gui/file/d8310e13db1971f533396fc47124035e85affdfd73bb6f01637caf25d7939bfe/details)
+[VirusTotal-Ergebnis anzeigen](https://www.virustotal.com/gui/file/d8310e13db1971f533396fc47124035e85affdfd73bb6f01637caf25d7939bfe/details)
 
 ---
 
-?? Wenn beim ersten Start eine SmartScreen- oder Defender-Warnung erscheint, klicken Sie einfach auf  
-**„Weitere Informationen“ ? „Trotzdem ausführen“** – das Programm ist sicher.
+Wenn beim ersten Start eine SmartScreen- oder Defender-Warnung erscheint, klicken Sie einfach auf  
+**„Weitere Informationen“ „Trotzdem ausführen“** – das Programm ist sicher.
