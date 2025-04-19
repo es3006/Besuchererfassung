@@ -47,3 +47,22 @@ Veröffentlicht unter der MIT-Lizenz“ siehe [LICENSE](./LICENSE).
 
 **Hauptfenster:**
 ![Hauptfenster](docs/screenshots/main-window.png)
+
+?? Sicherheitshinweis zur Besuchererfassung.exe
+
+Diese Anwendung ist digital signiert, wird vollständig lokal ausgeführt und enthält keine Schadsoftware.
+Alle Dateien bleiben im Programmverzeichnis. Es erfolgt kein Zugriff auf das Internet oder auf die Windows-Registry.
+
+Die Datei wurde mit über 70 Antivirenprogrammen auf VirusTotal.com geprüft – keine Bedrohung erkannt.
+
+Warum gibt es trotzdem manchmal eine Warnung?
+------------------------------------------------
+Windows Defender SmartScreen oder Antivirenprogramme zeigen bei neuen, selten genutzten Programmen eine Warnung an.
+Das passiert automatisch, auch bei sauberen Programmen, wenn sie noch keine Reputation aufgebaut haben.
+
+So führst du die Datei trotzdem aus:
+1. Doppelklicke auf die heruntergeladene Datei.
+2. Wenn eine Warnung erscheint, klicke auf "Weitere Informationen".
+3. Klicke dann auf "Trotzdem ausführen".
+
+Diese Meldung verschwindet automatisch, sobald das Programm häufiger genutzt wird.
