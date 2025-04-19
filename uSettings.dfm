@@ -20,7 +20,7 @@ object fSettings: TfSettings
     Top = 8
     Width = 588
     Height = 467
-    ActivePage = TabSheet1
+    ActivePage = Programmeinstellungen
     TabOrder = 0
     object Programmeinstellungen: TTabSheet
       Caption = 'Programmeinstellungen'
@@ -39,14 +39,14 @@ object fSettings: TfSettings
         OnClick = SpeedButton2Click
       end
       object Label2: TLabel
-        Left = 16
+        Left = 24
         Top = 96
         Width = 243
         Height = 19
         Caption = 'Farbe f'#252'r selektierte Listeneintr'#228'ge'
       end
       object edLineHeight: TLabeledEdit
-        Left = 16
+        Left = 24
         Top = 46
         Width = 121
         Height = 27
@@ -57,9 +57,9 @@ object fSettings: TfSettings
         Text = '16'
       end
       object udLineHeight: TUpDown
-        Left = 137
+        Left = 143
         Top = 46
-        Width = 16
+        Width = 34
         Height = 27
         Associate = edLineHeight
         Min = 10
@@ -77,7 +77,7 @@ object fSettings: TfSettings
         OnClick = btnSaveClick
       end
       object edLVSelBGColor: TLabeledEdit
-        Left = 16
+        Left = 24
         Top = 152
         Width = 217
         Height = 27
@@ -90,7 +90,7 @@ object fSettings: TfSettings
         Text = ''
       end
       object edLVSelVGColor: TLabeledEdit
-        Left = 16
+        Left = 24
         Top = 216
         Width = 217
         Height = 27
@@ -178,6 +178,15 @@ object fSettings: TfSettings
         Width = 78
         Height = 19
         Caption = 'Wochentag'
+      end
+      object Label3: TLabel
+        Left = 24
+        Top = 72
+        Width = 481
+        Height = 38
+        Caption = 
+          'W'#228'hlen Sie hier den Wochentag und die Uhrzeit zu der automatisch' +
+          ' '#13'jede Woche eine Datenbanksicherung erstellt werden soll.'
       end
       object cbAutoDBBackupWochentag: TComboBox
         Left = 24

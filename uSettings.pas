@@ -34,6 +34,7 @@ type
     edAutoDBBackupStunde: TLabeledEdit;
     edAutoDBBackupMinute: TLabeledEdit;
     btnSaveAutoDBBackup: TButton;
+    Label3: TLabel;
     procedure FormShow(Sender: TObject);
     procedure btnSaveClick(Sender: TObject);
     procedure btnSaveDSGVOClick(Sender: TObject);
